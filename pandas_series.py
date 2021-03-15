@@ -33,3 +33,11 @@ print(grades.Wally)
 print(grades.dtype)
 
 print(grades.values)
+
+hardware = pd.Series(["Hammer", "Saw", "Wrench"])
+
+answer = hardware.str.contains("a")
+print(answer)
+
+hardware_upper = hardware.str.upper()
+print(hardware_upper)
